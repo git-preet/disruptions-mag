@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Forum|Pompiere&display=swap');
 
@@ -15,21 +15,21 @@ h1 {
   font-family: 'Bungee Hairline', cursive;
   font-size: 45px;
   font-weight: 700;
-  line-height: 24px
+  line-height: 24px;
 }
 h2 {
   color: #416650;
   font-family: 'Rajdhani', sans-serif;
   font-size: 32px;
   font-weight: 700;
-  line-height: 20px
+  line-height: 20px;
 }
 h3 {
   color: #5C5555;
   font-family: 'Rajdhani', sans-serif;
   font-size: 22px;
   font-weight: 700;
-  line-height: 17px
+  line-height: 17px;
 }
 p, a, ol, ul, table {
   font-family: 'Playfair Display', serif;
@@ -38,36 +38,16 @@ p, a, ol, ul, table {
   line-height: 20px;
   color: #0B1C20;
 }
-p.album{
-  margin-top: 80px;
-  margin-right: 75px;
-  margin-left: 150px;
-}
-p.intro{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
-a:link {
-  color: #5C5555;
-}
-a:visited {
-  color: #366147;
-}
-a:hover {
-  color: #297575;
-}
-a:active {
-  color: #93AF8E;
-}
-ul, ol {
-  list-style-position: inside;
-}
 img.float {
   float: right;
   margin-left: 75px;
   margin-right: 150px;
+}
+.intro {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 .center {
   margin-left: auto;
@@ -85,4 +65,42 @@ img.float {
   font-family: 'Forum', cursive;
   font-size: 17px;
   margin: 35px;
+}
+.album {
+  margin-left: 150px;
+  margin-right: 75px;
+}
+#golf {
+  width: "250px";
+  margin-left: auto;
+  margin-right: auto;
+}
+#bathimg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+#igortour {
+  text-decoration: none;
+  color: black;
+  background-color: #A3C4B1
+}
+a:link {
+  color: #5C5555;
+}
+a:visited {
+  color: #366147;
+}
+a:hover {
+  color: #297575;
+}
+a:active {
+  color: #93AF8E;
+}
+a[href="http://www.ucvts.tec.nj.us"],
+a[href="https://www.ucvts.tec.nj.us/Page/471"] {
+    color: #29656F
+}
+p + ul, p + ol {
+  list-style-position: inside;
 }
