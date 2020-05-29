@@ -56,16 +56,20 @@ img.float {
 .button {
   text-decoration: none;
   background-color: #FFBE0B;
-  color: black;
+  color: white;
   padding: 2px 6px 2px 6px;
   border-top: 1px solid #ffcf4a;
-  border-right: 1px solid #FB5607;
-  border-bottom: 1px solid #FB5607;
+  border-right: 1px solid #9c7200;
+  border-bottom: 1px solid #9c7200;
   border-left: 1px solid #ffcf4a;
   font-family: 'Forum', cursive;
   font-size: 17px;
   margin: 35px;
 }
+.logo {
+  float: left;
+}
+
 .album {
   margin-left: 150px;
   margin-right: 75px;
