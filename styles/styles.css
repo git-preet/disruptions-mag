@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:600&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Forum|Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 body {
   background-color: black;
@@ -12,27 +13,28 @@ body {
 }
 h1 {
   color: #FF006E;
-  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Merriweather', serif;
   font-size: 45px;
   font-weight: 700;
   line-height: 24px;
 }
 h2 {
   color: #8338EC;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 20px;
+  font-style: italic;
 }
 h3 {
   color: #3A86FF;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 17px;
 }
 p, a, ol, ul, table {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -55,14 +57,10 @@ img.float {
 }
 .button {
   text-decoration: none;
-  color: black;
-  background-color: #FFBE0B;
+  color: white;
+  background-color: black;
   padding: 2px 6px 2px 6px;
-  border-top: 1px solid #ffcf4a;
-  border-right: 1px solid #9c7200;
-  border-bottom: 1px solid #9c7200;
-  border-left: 1px solid #ffcf4a;
-  font-family: 'Forum', cursive;
+  font-family: 'Fredoka One', cursive;
   font-size: 17px;
   margin: 35px;
   margin-top: 300px;
@@ -72,6 +70,7 @@ img.float {
   margin-left: 5%;
   margin-top: 0px;
   width: 10%
+
 }
 
 .album {
@@ -93,22 +92,29 @@ img.float {
   color: black;
   background-color: #A3C4B1
 }
-a:link {
-  color: black;
+
+#homebutton {
+  color:#FFBE0B;
 }
-a:visited {
-  color: #366147;
+#webzinebutton {
+  color :#FB5607;
 }
-a:hover {
-  color: #297575;
+#reachoutbutton {
+  color: #FF006E;
 }
-a:active {
-  color: #93AF8E;
+#aboutbutton {
+  color: #8338EC;
 }
-a[href="http://www.ucvts.tec.nj.us"],
-a[href="https://www.ucvts.tec.nj.us/Page/471"] {
-    color: #29656F
+#contactusbutton {
+  color: #3A86FF;
 }
+
+
+
+.button:hover {
+  color: white;
+}
+
 p + ul, p + ol {
   list-style-position: inside;
 }
