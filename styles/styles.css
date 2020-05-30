@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 
 body {
   background-color: black;
@@ -13,9 +14,8 @@ body {
 }
 h1 {
   color: #FF006E;
-  font-family: 'Merriweather', serif;
+  font-family: 'Audiowide', cursive;
   font-size: 45px;
-  font-weight: 700;
   line-height: 24px;
 }
 h2 {
@@ -59,18 +59,22 @@ img.float {
   text-decoration: none;
   color: white;
   background-color: black;
-  padding: 2px 6px 2px 6px;
   font-family: 'Fredoka One', cursive;
   font-size: 17px;
   margin: 35px;
-  margin-top: 300px;
+  margin-top: 300px
+  transition-duration: 0.4s;
 }
+
+.button:hover {
+  color: white;
+}
+
 .logo {
   float: left;
   margin-left: 5%;
   margin-top: 0px;
-  width: 10%
-
+  width: 100px;
 }
 
 .album {
@@ -111,9 +115,7 @@ img.float {
 
 
 
-.button:hover {
-  color: white;
-}
+
 
 p + ul, p + ol {
   list-style-position: inside;
