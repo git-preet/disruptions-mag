@@ -67,7 +67,7 @@ img.float {
 }
 
 .button:hover {
-  color: white;
+  font-color: white;
 }
 
 .logo {
@@ -81,21 +81,6 @@ img.float {
   margin-left: 150px;
   margin-right: 75px;
 }
-#golf {
-  width: "250px";
-  margin-left: auto;
-  margin-right: auto;
-}
-#bathimg {
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
-}
-#igortour {
-  text-decoration: none;
-  color: black;
-  background-color: #A3C4B1
-}
 
 #homebutton {
   color:#FFBE0B;
@@ -103,17 +88,21 @@ img.float {
 #webzinebutton {
   color :#FB5607;
 }
-#reachoutbutton {
+#submitbutton {
   color: #FF006E;
 }
-#aboutbutton {
+#reachoutbutton {
   color: #8338EC;
 }
-#contactusbutton {
+#aboutbutton {
   color: #3A86FF;
 }
 
-
+.header{
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
 
 
 
