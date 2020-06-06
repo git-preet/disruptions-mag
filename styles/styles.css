@@ -126,7 +126,6 @@ p + ul, p + ol {
 a {
   text-decoration: none;
   color: inherit;
-  font-weight: bold;
 }
 
 /* Clear floats after the columns */
