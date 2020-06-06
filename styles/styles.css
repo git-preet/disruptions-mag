@@ -18,7 +18,7 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 45px;
-  line-height: 24px;
+  line-height: 43px;
 }
 h2 {
   color: #8338EC;
@@ -45,8 +45,9 @@ p, a, ol, ul, table {
 }
 img.float {
   float: right;
-  margin-left: 75px;
-  margin-right: 150px;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .intro {
   margin-top: 50px;
@@ -81,16 +82,13 @@ img.float {
 }
 
 .album {
-  margin-left: 150px;
-  margin-right: 75px;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.column:hover p {
-  color: #8338EC;
-}
-
-.column:hover h2 {
-  font-weight;
+.column:hover h2, .column:hover h3 {
+  color: white;
 }
 
 #homebutton {
@@ -143,4 +141,19 @@ p {
   float: center;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+
+.blmcolumn {
+  float: left;
+  width: 30%;
+  margin-left: 2.5%;
+}
+
+.blmcolumn h2{
+  text-align: center;
+}
+
+.blmcolumn a:hover {
+  color: #3A86FF;
 }
