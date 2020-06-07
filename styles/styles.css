@@ -130,7 +130,8 @@ p {
   margin-left: 10%;
   margin-right: 10%;
   color: white;
-  font-family: 'Cormorant Garamond', sans-serif
+  font-family: 'Cormorant Garamond', sans-serif;
+  text-align: center;
 }
 
 
@@ -223,4 +224,8 @@ h4:hover {
 
 .switcharticle {
   color: #3A86FF
+}
+
+div.article p {
+  text-align: left;
 }
