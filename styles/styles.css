@@ -29,14 +29,7 @@ h2 {
 }
 
 }
-h3 {
-  color: #3A86FF;
-  font-family: 'Cormorant Garamond', sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 17px;
-  font-style: italic;
-}
+
 p, ol, ul, table {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
@@ -137,6 +130,7 @@ p {
   margin-left: 10%;
   margin-right: 10%;
   color: white;
+  font-family: 'Cormorant Garamond', sans-serif
 }
 
 
@@ -156,7 +150,70 @@ p {
 
 .blmhead {
   color: white;
-  font-size:15px;
+  font-size:20px;
+  line-height: 24px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150px;
+  align-items: flex-start;
+}
+
+.flex-child {
+  flex: 0 0
+}
+
+.navrow {
+  display: flex;
+}
+
+.navrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  color: #9c9fa6;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  font-style: italic;
+}
+
+h4 {
+  color: #3A86FF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  line-height: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.nextcolumn {
+  float: left;
+  width: 50%;
+}
+
+.previous {
+  text-align: left;
+  color: #3A86FF;
+  line-height: 10px;
+}
+
+.next {
+  text-align: right;
+  color: #3A86FF;
+  line-height: 10px;
+}
+
+.switcharticle {
+  color: #3A86FF
 }
