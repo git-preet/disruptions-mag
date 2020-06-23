@@ -55,11 +55,13 @@ h4:hover {
 }
 
 p, ol, ul, table {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
   color: white;
+  font-family: 'Cormorant Garamond', sans-serif;
+  text-align: center;
+  font-size: 19px;
+  line-height: 21px;
 }
 
 img.float {
@@ -168,6 +170,11 @@ p {
   margin-left: 2.5%;
 }
 
+.blmcolumn p {
+letter-spacing: 2px;
+  line-height: 24px;
+}
+
 .blmcolumn h2{
   text-align: center;
 }
@@ -233,4 +240,15 @@ p {
 
 div.article p {
   text-align: left;
+}
+
+.emphasispar {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
 }
