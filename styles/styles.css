@@ -90,10 +90,9 @@ img.float {
   font-family: 'Paytone One', sans-serif;
   font-size: 17px;
   margin: 35px;
-  margin-top: 300px
+  margin-top: 300px;
   transition-duration: 0.4s;
 }
-
 
 .logo {
   float: left;
@@ -126,6 +125,10 @@ img.float {
 }
 #aboutbutton {
   color: #3A86FF;
+}
+
+#homebutton:hover, #webzinebutton:hover, #submitbutton:hover, #reachoutbutton:hover, #aboutbutton:hover {
+  color: white;
 }
 
 .header{
@@ -216,7 +219,7 @@ letter-spacing: 2px;
   clear: both;
 }
 
-.writerig:hover {
+.orangehov:hover {
   color:#cc990a;
 }
 
@@ -245,6 +248,9 @@ div.article p {
   text-align: left;
 }
 
+div.column h2:hover {
+  color: white;
+}
 .emphasispar {
     margin-left: 10%;
     margin-right: 10%;
