@@ -6,24 +6,25 @@
 
 
 body {
-  background-color: black;
+  background-color: #EEDDCD;
   text-align: center;
 }
+
 * {
   text-align: center;
 }
 h1 {
-  color: #FF006E;
+  color: black;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  font-size: 45px;
-  line-height: 47px;
+  font-size: 50px;
+  line-height: 58px;
   padding-left: 10%;
   padding-right: 10%;
   float: center;
 }
 h2 {
-  color: #8338EC;
+  color: black;
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -34,7 +35,7 @@ h2 {
 }
 
 h3 {
-  color: #9c9fa6;
+  color: black;
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -45,7 +46,7 @@ h3 {
 }
 
 h4 {
-  color: #3A86FF;
+  color: black;
   font-family: 'Poppins', sans-serif;
   font-size: 21px;
   line-height: 20px;
@@ -86,12 +87,11 @@ img.float {
 .button {
   text-decoration: none;
   color: white;
-  background-color: black;
+  background-color: #EEDDCD;
   font-family: 'Paytone One', sans-serif;
   font-size: 17px;
   margin: 35px;
   margin-top: 300px;
-  transition-duration: 0.4s;
 }
 
 .logo {
@@ -111,20 +111,8 @@ img.float {
   color: white;
 }
 
-#homebutton {
-  color:#FFBE0B;
-}
-#webzinebutton {
-  color :#FB5607;
-}
-#submitbutton {
-  color: #FF006E;
-}
-#reachoutbutton {
-  color: #8338EC;
-}
-#aboutbutton {
-  color: #3A86FF;
+#homebutton, #webzinebutton, #submitbutton, #reachoutbutton, #aboutbutton {
+  color: black;
 }
 
 #homebutton:hover, #webzinebutton:hover, #submitbutton:hover, #reachoutbutton:hover, #aboutbutton:hover {
@@ -162,11 +150,11 @@ a {
 p {
   margin-left: 10%;
   margin-right: 10%;
-  color: white;
+  color: black;
   font-family: 'Cormorant Garamond', sans-serif;
   text-align: center;
-  font-size: 19px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 23px;
 }
 
 
@@ -186,11 +174,10 @@ letter-spacing: 2px;
 }
 
 .blmcolumn a:hover {
-  color: #3A86FF;
+  color: white;
 }
 
 .blmhead {
-  color: white;
   font-size:20px;
   line-height: 24px;
   margin-left: 5%;
@@ -220,7 +207,7 @@ letter-spacing: 2px;
 }
 
 .orangehov:hover {
-  color:#cc990a;
+  color: white;
 }
 
 .nextcolumn {
@@ -230,13 +217,13 @@ letter-spacing: 2px;
 
 .previous {
   text-align: left;
-  color: #3A86FF;
+  color: #312922;
   line-height: 23px;
 }
 
 .next {
   text-align: right;
-  color: #3A86FF;
+  color: black;
   line-height: 23px;
 }
 
