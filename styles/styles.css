@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,600;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 
+
 body {
   background-color: #F9F6EF;
   text-align: center;
@@ -56,6 +57,9 @@ h4 {
   margin-right: 10%;
 }
 
+a:hover {
+  color: #B3C4D0;
+}
 div.nextcolumn:hover {
   color: #E2C8B6;
 }
@@ -258,7 +262,7 @@ div h4:hover {
 .emphasispar {
     margin-left: 10%;
     margin-right: 10%;
-    color: #353B3D;
+    color: #434B4D;
     font-weight: bold;
     font-family: 'Cormorant Garamond', sans-serif;
     text-align: center;
