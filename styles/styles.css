@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,600;1,800&display=swap');
 
 body {
-  background-color: #FEE1C6;
+  background-color: #F9F6EF;
   text-align: center;
 }
 
@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 h1 {
-  color: black;
+  color: #667E8F;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 50px;
@@ -25,7 +25,7 @@ h1 {
   float: center;
 }
 h2 {
-  color: black;
+  color: #94A6B3;
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: #353B3D;
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -55,12 +55,12 @@ h4 {
   margin-right: 10%;
 }
 
-h4:hover {
-  color: white;
+div.nextcolumn:hover {
+  color: #E2C8B6;
 }
 
 h5 {
-  color: black;
+  color: #262B2C;
   font-family: 'Playfair Display', serif;
   font-size: 115px;
   line-height: 115px;
@@ -70,14 +70,8 @@ h5 {
   margin-bottom: 3%;
 }
 
-p, ol, ul, table {
-  margin-left: 10%;
-  margin-right: 10%;
-  color: white;
-  font-family: 'Cormorant Garamond', sans-serif;
-  text-align: center;
-  font-size: 19px;
-  line-height: 21px;
+footer p {
+  color: black;
 }
 
 img.float {
@@ -93,8 +87,7 @@ img.float {
   margin-right: 100px;
   margin-left: 100px;
 }
-.ce
-nter {
+.center {
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,8 +95,8 @@ nter {
 .button {
   font-style:italic;
   color: white;
-  background-color: #FEE1C6;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-style: italic;
   font-size: 17px;
   margin: 35px;
   margin-top: 2%;
@@ -123,15 +116,15 @@ nter {
 }
 
 .column:hover h2, {
-  color: white;
+  color: #667E8F;
 }
 
-#homebutton, #webzinebutton, #submitbutton, #reachoutbutton, #aboutbutton {
+.button {
   color: black;
 }
 
-#homebutton:hover, #webzinebutton:hover, #submitbutton:hover, #reachoutbutton:hover, #aboutbutton:hover {
-  color: white;
+.button:hover {
+  color: #C8AD92;
 }
 
 .header{
@@ -162,10 +155,10 @@ a {
   clear: both;
 }
 
-p {
+ul, ol, p {
   margin-left: 10%;
   margin-right: 10%;
-  color: black;
+  color: #434B4D;
   font-family: 'Cormorant Garamond', sans-serif;
   text-align: center;
   font-size: 20px;
@@ -189,7 +182,7 @@ letter-spacing: 2px;
 }
 
 .blmcolumn a:hover {
-  color: white;
+  font-weight: bold;
 }
 
 .blmhead {
@@ -222,7 +215,11 @@ letter-spacing: 2px;
 }
 
 .orangehov:hover {
-  color: white;
+  color: #E2C8B6;
+}
+
+.cathov:hover {
+  color: #C8AD92;
 }
 
 .nextcolumn {
@@ -251,12 +248,17 @@ div.article p {
 }
 
 div.column h2:hover {
-  color: white;
+  color: #262B2C;
 }
+
+div.nextcolumn:hover h4 {
+  color: #E2C8B6
+}
+
 .emphasispar {
     margin-left: 10%;
     margin-right: 10%;
-    color: white;
+    color: #353B3D;
     font-weight: bold;
     font-family: 'Cormorant Garamond', sans-serif;
     text-align: center;
