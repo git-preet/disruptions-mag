@@ -128,7 +128,7 @@ img.float {
 }
 
 .button:hover {
-  color: #C8AD92;
+  color: #D3BDA8;
 }
 
 .header{
@@ -223,7 +223,7 @@ letter-spacing: 2px;
 }
 
 .cathov:hover {
-  color: #C8AD92;
+  color: #D3BDA8;
 }
 
 .nextcolumn {
@@ -233,7 +233,7 @@ letter-spacing: 2px;
 
 .previous {
   text-align: left;
-  color: #312922;
+  color: black;
   line-height: 23px;
 }
 
@@ -241,10 +241,6 @@ letter-spacing: 2px;
   text-align: right;
   color: black;
   line-height: 23px;
-}
-
-.switcharticle {
-  color: #3A86FF
 }
 
 div.article p {
