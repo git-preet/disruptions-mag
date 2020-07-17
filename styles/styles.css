@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 
 body {
   background-color: #F9F6EF;
@@ -93,10 +94,9 @@ img.float {
 }
 
 .button {
-  font-style:italic;
   color: white;
   font-family: 'Cormorant Garamond', sans-serif;
-  font-style: italic;
+  font-weight: 600;
   font-size: 17px;
   margin: 35px;
   margin-top: 2%;
