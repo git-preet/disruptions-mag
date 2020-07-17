@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 h1 {
-  color: #667E8F;
+  color: #353B3D;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 50px;
@@ -26,7 +26,7 @@ h1 {
   float: center;
 }
 h2 {
-  color: #94A6B3;
+  color: #434B4D;
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -63,8 +63,8 @@ div.nextcolumn:hover {
 h5 {
   color: #262B2C;
   font-family: 'Playfair Display', serif;
-  font-size: 115px;
-  line-height: 115px;
+  font-size: 100px;
+  line-height: 100px;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
@@ -116,7 +116,7 @@ img.float {
 }
 
 .column:hover h2, {
-  color: #667E8F;
+  color: #94A6B3;
 }
 
 .button {
@@ -248,11 +248,11 @@ div.article p {
 }
 
 div.column h2:hover {
-  color: #262B2C;
+  color: #94A6B3;
 }
 
-div.nextcolumn:hover h4 {
-  color: #E2C8B6
+div h4:hover {
+  color: #94A6B3
 }
 
 .emphasispar {
