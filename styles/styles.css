@@ -98,7 +98,7 @@ img.float {
 }
 
 .button {
-  color: black;
+  color: #353B3D;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-size: 17px;
@@ -237,7 +237,7 @@ div h4:hover {
 /* Style The Dropdown Button */
 .dropbtn {
   background-color: #F9F6EF;
-  color: black;
+  color: #353B3D;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-size: 17px;
@@ -264,7 +264,7 @@ div h4:hover {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #353B3D;
   padding: 12px 16px;
   font-family: 'Playfair Display', serif;
   font-weight: 400px;
