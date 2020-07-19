@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=EB+Garamond:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,600;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
 body {
   background-color: #F9F6EF;
@@ -97,13 +97,11 @@ img.float {
   margin-right: auto;
 }
 
-.button, {
+.button {
   color: black;
-  font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-size: 17px;
-  margin: 35px;
-  margin-top: 2%;
 }
 
 .logo {
@@ -240,10 +238,12 @@ div h4:hover {
 .dropbtn {
   background-color: #F9F6EF;
   color: black;
-  font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-size: 17px;
-  margin-top: 0%;
+  padding-top: 0;
+  padding-bottom: 5%;
+  border: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -257,7 +257,7 @@ div h4:hover {
   display: none;
   position: absolute;
   background-color: #F9F6EF;
-  min-width: 160px;
+  min-width: 93px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -266,13 +266,17 @@ div h4:hover {
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400px;
+  font-size: 14px;
   text-decoration: none;
+  text-align: center;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #F2E7DC
 }
 
 /* Show the dropdown menu on hover */
@@ -311,4 +315,12 @@ div h4:hover {
   content:"";
   display: table;
   clear:both;
+}
+
+.dropbtn a:hover, .dropbtn:hover {
+  color: #D3BDA8;
+}
+
+ {
+  color: #D3BDA8
 }
