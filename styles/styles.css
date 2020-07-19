@@ -97,8 +97,8 @@ img.float {
   margin-right: auto;
 }
 
-.button {
-  color: white;
+.button, {
+  color: black;
   font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 600;
   font-size: 17px;
@@ -108,23 +108,11 @@ img.float {
 
 .logo {
   float: left;
-  margin-left: 5%;
-  margin-top: 0px;
   width: 100px;
-}
-
-.album {
-  width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .column:hover h2, {
   color: #94A6B3;
-}
-
-.button {
-  color: black;
 }
 
 .button:hover {
@@ -195,29 +183,6 @@ letter-spacing: 2px;
   margin-left: 5%;
   margin-right: 5%;
 }
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 150px;
-  align-items: flex-start;
-}
-
-.flex-child {
-  flex: 0 0
-}
-
-.navrow {
-  display: flex;
-}
-
-.navrow:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .orangehov:hover {
   color: #E2C8B6;
 }
@@ -264,4 +229,86 @@ div h4:hover {
     text-align: center;
     font-size: 36px;
     line-height: 40px;
+}
+
+
+
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #F9F6EF;
+  color: black;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 0%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F6EF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #D3BDA8;
+}
+
+.navrow {
+  display: flex;
+}
+
+.logocolumn {
+  width: 10%;
+  float: right;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%
+}
+
+.navcolumn {
+  width: 11%;
+  float: right;
+  margin-right: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%
+}
+
+.navrow:after {
+  content:"";
+  display: table;
+  clear:both;
 }
